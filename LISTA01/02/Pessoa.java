@@ -11,7 +11,7 @@ public class Pessoa
     private String nome;
     private char sexo;
     private String dataNascimento;
-    private String estadoCivil = "Solteiro";// 1a opção para inicializar um atributo
+    private String estadoCivil = "Solteiro"; // 1a opção para inicializar um atributo
 
     /**
      * Construtor para objetos da classe Pessoa
