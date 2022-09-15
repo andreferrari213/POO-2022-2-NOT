@@ -17,4 +17,8 @@ public class Vetor {
     public boolean vetorZero(){
         return vetor[0][0][0] == 0;
     }
+
+    public static void main(String[] args) {
+        new Vetor();
+    }
 }
