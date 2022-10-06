@@ -3,28 +3,29 @@ package prova;
 import java.util.ArrayList;
 
 /**
+ * DIAGRAMA DE CLASSE DA PROVA
  * 
- * 	OR�AMENTO (TODO)						Produto (PARTE)
- * ------------------------------------		-------------------------
- * numero - int								descricao - String
- * tipo - char								unidadeMedida - char
- * cliente - String							quantidade - int
+ * 	ORÇAMENTO (TODO)			1 <----> 1..*	Produto (PARTE)
+ * ------------------------------------				-------------------------
+ * numero - int							descricao - String
+ * tipo - char							unidadeMedida - char
+ * cliente - String						quantidade - int
  * endereco - String						valorUnitario - float
  * telefone - String						dificuldade - char
  * marca - String
  * quilometragem - int
  * horas - int
- * ------------------------------------		-------------------------
- * getValorTotalProdutos() float			getValorTotal() float
+ * ------------------------------------				-------------------------
+ * getValorTotalProdutos() float				getValorTotal() float
  * getMaiorCusto() String
  * getProdutoAltaDificuldade() boolean
  * getValorMaoObra() float
  * getValorTotal() float
  * getDificuldadeMedia() int
- * ------------------------------------		-------------------------
+ * ------------------------------------				-------------------------
  * 
  * 
- * @author gabriel.vieira
+ * @author Gabriel Vieira
  *
  */
 
